@@ -73,5 +73,10 @@ namespace ComicBookGallery.Data
 
             return result;
         }
+
+        public ComicBook[] GetComicBooks()
+        {
+            return _comicBooks;
+        }
     }
 }
